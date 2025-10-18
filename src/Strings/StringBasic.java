@@ -30,7 +30,39 @@ public class StringBasic {
     }
     // lexicographical means a string b string and wen we compare we compare based on ascii values of characters
 // if some character ascii value is greater than other character then the string containing that character is greater
-    sc.close();
+   
+
+     System.out.println(str.contains("a"));
+   
+     System.out.println(str.endsWith("e"));//endswith checks whether string ends with given character or not
+   
+    System.out.println(str.toLowerCase());//converts string to lowercase
+    
+    System.out.println(str.toUpperCase());//converts string to uppercase
+   
+    System.out.println(str.concat(" ipad"));//concatenation of strings
+    
+    str.concat(str2);// strings are immutable so this will not change str value
+   
+    System.out.println(str);// original str will be printed
+   
+   
+   
+    // string + int/char/string will result in concatenation
+   System.out.println(str+5);
+    System.out.println(str+'c'); 
+  
+  
+  
+   // substring(i,j) and substring(i), i =begin and j=end 
+   System.out.println(str.substring(1,3));
+    System.out.println(str.substring(2));
+   str+= " banana";// this will change str value
+    System.out.println(str);
+
+    
+
+sc.close();
     }
     
 }
