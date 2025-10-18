@@ -6,7 +6,7 @@ public class Multiply {
     
     static void  multiplyMatrices(int [][] a, int [][] b, int [][] result, int r1, int c1, int c2){
        if (c1 != b.length) {
-            throw new IllegalArgumentException("Incompatible matrix dimensions for multiplication.");
+           System.out.println("Matrices cannot be multiplied due to incompatible dimensions.");
         }
         for(int i=0;i<r1;i++){
             for(int j=0;j<c2;j++){
@@ -39,8 +39,9 @@ public class Multiply {
     
     
     
-    
+    sc.close();
             }
+
 
 
 
