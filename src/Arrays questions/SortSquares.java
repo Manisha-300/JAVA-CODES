@@ -13,6 +13,7 @@ public class SortSquares {
         }
 
     }
+    
     static int[] sortedsquares(int []arr){
         int n=arr.length;
         int left=0,right=n-1;
