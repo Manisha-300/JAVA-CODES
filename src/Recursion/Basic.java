@@ -1,3 +1,4 @@
+package Recursion;
 import java.util.Scanner;
 
 class Basic{
@@ -9,10 +10,15 @@ class Basic{
         pi(n-1);
         System.out.println(n);
     }
+    static void natural(int n){
+  
+    }
+
+    
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         pi(n);
-        sc.close();
+         sc.close();
     }
-}
+}   
