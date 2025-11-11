@@ -1,3 +1,4 @@
+package Striver_Recursion;
 import java.util.Scanner;
 
 public class SumSubSeq {
