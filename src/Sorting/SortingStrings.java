@@ -1,3 +1,4 @@
+package Sorting;
 public class SortingStrings {
     static void sortString(String []arr){
         int n=arr.length;

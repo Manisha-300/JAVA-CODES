@@ -1,3 +1,4 @@
+package Sorting;
 public class MergeSort {
 
     static void mergesort(int []arr,int left,int right){
